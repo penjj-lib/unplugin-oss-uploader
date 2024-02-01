@@ -26,7 +26,7 @@ import { Zones, qiniuAdapter } from 'unplugin-oss-uploader/adapter'
 // put in your's webpack config
 export default {
   plugins: [
-    assetsLoader({
+    ossUploader({
       adapter: qiniuAdapter({
         // Keep your keys safe, recommend using environment variables in devops
         // or write your custom adapter.
