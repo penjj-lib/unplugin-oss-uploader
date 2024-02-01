@@ -1,0 +1,31 @@
+{
+  "name": "@unplugin-oss-uploader/monorepo",
+  "type": "module",
+  "version": "0.0.0-alpha.2",
+  "private": true,
+  "packageManager": "pnpm@8.15.0",
+  "description": "Upload your assets files to oss",
+  "author": "penjj<peng.j.1995@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/penjj/unplugin-assets-uploader",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "pnpm --filter unplugin-oss-uploader build",
+    "stub": "pnpm --filter unplugin-oss-uploader stub",
+    "test": "pnpm --filter test test",
+    "release": "bumpp -r",
+    "publish:ci": "pnpm -r publish --no-git-checks --access public",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.2",
+    "@penjj/tsconfig": "^0.3.7",
+    "bumpp": "^9.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-format": "^0.1.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}

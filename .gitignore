@@ -1,0 +1,6 @@
+dist
+node_modules
+.env.local
+.npmrc
+.swc
+.DS_Store

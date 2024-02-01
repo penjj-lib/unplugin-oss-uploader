@@ -1,0 +1,25 @@
+{
+  "name": "example-vite-web",
+  "type": "module",
+  "private": true,
+  "author": "penjj<peng.j.1995@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "homepage": "https://github.com/penjj/unplugin-assets-uploader",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.4.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "unplugin-imagemin": "^0.5.18",
+    "unplugin-oss-uploader": "workspace:*",
+    "vite": "^5.0.11",
+    "vite-plugin-inspect": "^0.8.1"
+  }
+}

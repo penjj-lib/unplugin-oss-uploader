@@ -1,0 +1,6 @@
+.box1 {
+  background: url('@/assets/webpack.png');
+}
+.box2 {
+  background: url('https://example.com/imgs/webpack.png');
+}

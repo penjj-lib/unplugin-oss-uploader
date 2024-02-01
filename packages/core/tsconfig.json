@@ -1,0 +1,4 @@
+{
+  "extends": "@penjj/tsconfig",
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`webpack build 1`] = `"(()=>{var e={432:e=>{e.exports="https://example.com/webpack/acee37c25f1f47dd56cc29c49190fb9e.png"},850:e=>{e.exports="https://example.com/webpack/acee37c25f1f47dd56cc29c49190fb9e.png"}},t={};function r(o){var c=t[o];if(void 0!==c)return c.exports;var n=t[o]={exports:{}};return e[o](n,n.exports,r),n.exports}r.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return r.d(t,{a:t}),t},r.d=(e,t)=>{for(var o in t)r.o(t,o)&&!r.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:t[o]})},r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{"use strict";var e=r(432),t=r.n(e);const o=vue;var c=r(850),n=r.n(c);const a=(0,o.createElementVNode)("img",{src:t()},null,-1),p={__name:"DemoComp",setup:e=>(e,t)=>((0,o.openBlock)(),(0,o.createElementBlock)(o.Fragment,null,[a,(0,o.createElementVNode)("div",null,(0,o.toDisplayString)((0,o.unref)(n())),1)],64))};console.log(e,p)})()})();"`;
+
+exports[`webpack build 2`] = `
+".box1 {
+  background: url(https://example.com/webpack/aa5b4c6d7f2c4f7327ba4add2e8782bf.png);
+}
+.box2 {
+  background: url('https://example.com/imgs/webpack.png');
+}
+
+@font-face {
+  font-family: 'Test';
+  src: url(https://example.com/webpack/d41d8cd98f00b204e9800998ecf8427e.ttf);
+}
+div {
+  background: url(https://example.com/webpack/aa5b4c6d7f2c4f7327ba4add2e8782bf.png);
+}
+
+
+.box1 {
+  background: url(https://example.com/webpack/aa5b4c6d7f2c4f7327ba4add2e8782bf.png);
+}
+.box2 {
+  background: url('https://example.com/imgs/webpack.png');
+}
+
+"
+`;
