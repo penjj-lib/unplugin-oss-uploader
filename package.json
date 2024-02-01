@@ -1,7 +1,7 @@
 {
   "name": "@unplugin-oss-uploader/monorepo",
   "type": "module",
-  "version": "0.0.0-alpha.2",
+  "version": "0.0.0-alpha.3",
   "private": true,
   "packageManager": "pnpm@8.15.0",
   "description": "Upload your assets files to oss",

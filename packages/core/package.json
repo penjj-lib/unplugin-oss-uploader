@@ -1,7 +1,7 @@
 {
   "name": "unplugin-oss-uploader",
   "type": "module",
-  "version": "0.0.0-alpha.2",
+  "version": "0.0.0-alpha.3",
   "description": "Upload assets to OSS with Vite or Webpack",
   "author": "penjj<peng.j.1995@gmail.com>",
   "license": "MIT",

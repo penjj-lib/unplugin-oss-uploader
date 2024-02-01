@@ -1,7 +1,7 @@
 {
   "name": "@unplugin-oss-uploader/test",
   "type": "module",
-  "version": "0.0.0-alpha.2",
+  "version": "0.0.0-alpha.3",
   "private": true,
   "author": "penjj<peng.j.1995@gmail.com>",
   "license": "MIT",
