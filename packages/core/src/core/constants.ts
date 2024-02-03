@@ -34,9 +34,9 @@ export const KNOWN_ASSET_TYPES = [
   'otf',
 
   // other
-  'webmanifest',
-  'pdf',
-  'txt',
+  // 'webmanifest',
+  // 'pdf',
+  // 'txt',
 ]
 
 export const DEFAULT_ASSETS_RE = new RegExp(
